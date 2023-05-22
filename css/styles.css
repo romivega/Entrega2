@@ -1,0 +1,434 @@
+
+*{
+    margin: 0;
+    padding; 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding: 1em;
+background-color: white;
+font-family:'Courier New', Courier, monospace;
+}
+
+@media (max-width:480px) {
+    body{
+        background-color: rgb(165, 189, 165); 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+}
+
+header{
+    background-color: rgb(128, 128, 128);
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+@media (min-width: 768px) {
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
+
+h1{
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p-historia{
+    background-position: 10px;
+    text-align: center;
+    color:rgb(83, 79, 79);
+    text-decoration-style: solid;
+}
+    
+   .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+   }
+@media (min-width: 500px) {
+    .menu{
+        flex-direction: row;
+
+    }
+    
+}
+
+li a:hover{
+color: black;
+}
+
+
+
+
+ul{
+    list-style: none;
+    
+    
+}
+
+
+.portada{
+    margin-top: 60px;
+}
+
+.portada img{
+    display: flex;
+    max-width: 100%; 
+    margin-top: 30px;
+    background-position: center;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500em;
+    color:rgb(70, 68, 68);
+    
+  
+}
+
+#arriba{
+    background-color: rgb(167, 163, 163);
+    display: flexbox;
+    position: center;
+    height: 500px;
+   
+
+
+}
+
+
+
+
+
+#bienvenida{
+    
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.frase1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: xx-large em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    padding: 45px;
+}
+
+
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.visitanos{
+    margin-top: 50px;
+
+}
+
+.irArriba{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+    
+}
+
+.redes{
+    margin-top: 40px;
+}
+
+
+
+
+.margenes{
+    margin-top: 15px;
+}
+
+
+.comoComprar{
+    text-align:left;
+    font-size:larger;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.listaComprar{
+    margin-top: 5px;
+    margin-left: 0px;
+    color:rgb(71, 109, 71);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.productostitulo{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+
+
+.videos{
+    margin-bottom: 25px;
+}
+
+
+
+.fraseproductos{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: aliceblue;
+
+    
+
+}
+
+
+.card{
+    background-color: black;
+    margin-top: 35px;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.card p{
+    color:aliceblue;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+.card img{
+    width: 250px;
+
+}
+
+.card p{
+    color: black
+    text-align: left;
+}
+
+.card2{
+    background-color: black;
+    margin-top: 35px;
+    width: 250px;
+    height: 330px;
+    padding: 30px;
+    display: inline-block;
+}
+
+
+.card2 img{
+    width: 230px;
+}
+
+.card2 p{
+    color:aliceblue;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+.gracias h3{
+    background-color: black;
+    color: aliceblue;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+input{
+    margin-top: 20px;
+}
+
+.comentario {
+    margin-top: 30px;
+}
+
+.comentario label{
+    margin-left: 100px;
+    font-size: large;
+    
+    
+}
+
+.mapa{
+    margin-top: 70px;
+    margin-right: 30px;
+    
+}
+
+h3{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(177, 214, 177);
+}
+
+.cartel{
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+.enlace-w{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+
+.logo-whatsapp{
+    width: 80px;
+}
+
+.firma{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 0px;;
+    margin-top: 100px;
+margin-left: 0px;
+}
+
+.firma2{
+    width: 180px;
+    height: 180px;
+}
+
+.firma3{
+    width: 180px;
+    height: 180px;
+}
+
+
+#galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media (min-width: 768px) {
+    #galeria {
+        display: grid;
+        grid-template-areas: 
+        "foto1 foto1 foto2 foto2 foto2"
+        "foto3 foto3 foto2 foto2 foto2"
+        "foto3 foto3 foto2 foto2 foto2"
+        "foto4 foto5 foto6 foto7 foto8";
+        gap: 5px;
+    }
+}
+
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho{
+    max-width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width:768px) {
+    .uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho{
+    height: 200px;
+    }
+    
+}
+
+
+
+
+
+.uno{
+    background-image: url(../img/foto1.jpeg);
+    grid-area: foto1;
+}
+
+.dos{
+    background-image: url(../img/foto2.jpeg);
+    grid-area: foto2;
+    align-self: start;
+    height: 100%;
+}
+
+.tres{
+    background-image: url(../img/foto3.jpeg);
+    grid-area: foto3;
+}
+
+.cuatro{
+    background-image: url(../img/foto4.jpeg);
+    grid-area: foto4;
+}
+
+.cinco{
+    background-image: url(../img/foto5.jpeg);
+    grid-area: foto5;
+}
+
+.seis{
+    background-image: url(../img/foto6.jpeg);
+    grid-area: foto6;
+}
+
+.siete{
+    background-image: url(../img/foto7.jpeg);
+    grid-area: foto7;
+}
+
+.ocho{
+    background-image: url(../img/foto8.jpeg);
+    grid-area: foto8;
+}
+
+header nav{
+    width: 100%;
+   
+}
